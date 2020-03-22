@@ -12,6 +12,98 @@ body {
     color: white;
 }
 
+/* PROFILE PAGE */
+
+.prof img {
+  float: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.prof .prof-header {
+  padding: 20px;
+  border-bottom: 2px solid #383b42;
+}
+  
+.prof .prof-header .prof-about {
+  float: center;
+  padding-left: 1%;
+  margin-top: 1;
+  }
+  
+.prof .prof-header .prof-num-messages {
+  color: #92959e;
+}
+
+.submission-form2 {
+  max-width: 500px;
+  margin: 2rem auto;
+  border: 2px solid #86bb71;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.submission-form2 label {
+  display: block;
+  padding: 1rem 0 .25rem;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.submission-form2 input, .submission-form textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #2980B9;
+  padding: .5rem;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.submission-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  border: 2px solid #94c2ed;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.submission-form label {
+  display: block;
+  padding: 1rem 0 .25rem;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.submission-form input, .submission-form textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #2980B9;
+  padding: .5rem;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+#sendBtn {
+  border: 0;
+  background: #343050;
+  padding: .5rem;
+  color: white;
+  margin: 1rem 0;
+  width: auto;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .3s background ease;
+}
+#sendBtn:hover {
+  background: #3498DB;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* PROFILE PAGE */
+
 .fa-2x {
     font-size: 2em;
 }
@@ -416,3 +508,17 @@ cursor: pointer;
     clear: both;
     height: 0;
 }
+
+.start_top {
+        position: absolute;
+        left: 625px;
+        margin-top: 2%;
+        text-align: center;
+        font-size: 16px;
+}
+
+h1{
+    font-size: 72px;
+
+}
+
