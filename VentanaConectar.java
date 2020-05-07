@@ -202,7 +202,7 @@ class MarcoConectar extends JPanel {
 		pCrypto.setBorder(
 			BorderFactory.createTitledBorder(
 				BorderFactory.createLineBorder(Paleta.COLOR_SECUNDARIO), 
-				"Encryption",
+				"Nick",
 				TitledBorder.DEFAULT_JUSTIFICATION,
 				TitledBorder.DEFAULT_POSITION,
 				null,
@@ -217,7 +217,7 @@ class MarcoConectar extends JPanel {
 		c.gridwidth = 1;
 		
 		// ROW 1
-		JLabel lab_key = new JLabel("Encryption key");
+		JLabel lab_key = new JLabel("Nick");
 		lab_key.setForeground(Color.WHITE);
 		c.weightx = 1;
 		c.weighty = 1;
