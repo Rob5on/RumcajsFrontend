@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="P2P-ecrypted-java-chat:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/P2P_ecrypted_java_chat_jar2</output-path>
+    <root id="archive" name="P2P-ecrypted-java-chat.jar">
+      <element id="module-output" name="P2P-ecrypted-java-chat" />
+    </root>
+  </artifact>
+</component>
